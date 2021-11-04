@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ul ol{
+    list-style: none;
+    
+}
+a{
+    text-decoration:none;
+}
+body{
+    font:normal 14px/25px '微软雅黑';
+}
+header{
+
+}
+header .header-top{
+    width:1200px;
+    margin:0 auto;
+    /* 清除浮动 */
+    overflow: hidden;    
+}
+header .header-top .logo{
+    padding-top: 27px;
+    width:221px;
+    height:61px;
+    float:left;
+}
+header .header-top .log h1{
+    width:221px;
+    height:61px;
+}
+header .header-top .tool{
+    float: right;
+    width:266px;
+    height:77px;
+    padding-top: 22px;
+
+}
+header .header-top .tool .tel{
+    width:32px;
+    height:25px;
+}
+header .header-top .tool .icon{
+    width:27px;
+    height:27px;
+}
+header .header-top .tool .telnumber{
+    display: inline-block;
+    text-align: center;
+    width:158px;
+    height:28px;
+    color:#00978E;
+    font-size:20px;
+    line-height:28px;
+}
+header .header-top .tool .r2{
+    width:264px;
+    height:28px;
+    border:1px solid rgb(175, 172, 172);
+    border-radius:3px;
+}
+header .header-top .tool .input1{
+    width:220px;
+    padding-left: 20px;
+    height:28px;
+    float: left;
+    border: none;
+}
+header .header-top .tool .bt1{
+    width:24px;
+    height: 28px;
+    border:none;
+    float: left;
+    border:none;
+}
+
