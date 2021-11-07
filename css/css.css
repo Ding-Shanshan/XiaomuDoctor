@@ -121,7 +121,7 @@ header nav ul li a:hover{
 }
 .banner .center{
     position: absolute;
-    width:1200px;
+    width:1220px;
     height:300px;
     left:50%;
     margin-left:-600px;
@@ -185,4 +185,130 @@ header nav ul li a:hover{
     width:30px;
     background-color: #00978E;
 }
+.content{
+   padding-top:71px;
+}
+.content .useful-links{
+    padding-top: 70px;
+    width:905px;
+    height:150px;
+    margin:0 auto;
+
+}
+.content .useful-links ul{
+   list-style:none;
+}
+.content .useful-links ul li{
+    float: left;
+    width:104px;
+    margin-right:56px;
+ }
+ .content .useful-links ul li span{
+    display: block;
+    text-align: center;
+    font-size:20px;
+    color:black;
+    line-height: 40px;
+ }
+ .content .useful-links ul li:last-child{
+    margin-right:0px;
+ }
+ .content .news-and-notice{
+     width:1240px;
+     height:376px;
+     /* background-color: red; */
+     margin:0 auto;
+     margin-top:50px;
+ }
+ .content .news-and-notice .news{
+     float:left;
+     width:877px;
+     height:376px;
+     /* background-color: blanchedalmond; */
+ }
+ .content .news-and-notice .news h3{
+     height:25px;
+     margin-bottom: 20px;
+     border-left:5px solid #00978E;
+     line-height: 25px;
+     padding-left:5px;
+ }
+ .content .news-and-notice .notice{
+    float:left;
+    width:363px;
+    height:376px;
+    /* background-color: blue; */
+    padding:0px;
+}
+.content .news-and-notice .news .news-content .hots-new{
+    width:422px;
+    height:328px;
+    float:left;
+    position:relative;
+}
+.content .news-and-notice .news .news-content ul{
+    list-style: none;
+    float: left;
+    width:445px;
+    height:328px;
+}
+.content .news-and-notice .news .news-content ul li{
+    line-height:41px;
+    padding-left:20px;
+    font-size:16px;
+}
+.content .news-and-notice .news .news-content ul li span{
+    float: right;
+    padding-right: 20px;
+}
+.content .news-and-notice .news .news-content ul li.spec a{
+    color: #00978E;
+    font-weight:600;
+}
+.content .news-and-notice .news .news-content .hots-new .info{
+    position: absolute;
+    width:100%;
+    height:40px;
+    background-color: rgba(99, 94, 94, 0.3);
+    text-align: center;
+    line-height: 40px;
+    left:0;
+    bottom:0;
+    color:white;
+}
+.content .news-and-notice .notice h3{
+    height:25px;
+    margin-bottom: 20px;
+    border-left:5px solid #00978E;
+    line-height: 25px;
+    padding-left:5px;
+}
+.content .news-and-notice .notice ol{
+    height:328px;
+    list-style: none;
+    padding:0px;
+    margin:0;
+}
+.content .news-and-notice .notice ol li{
+    line-height:30px;
+    padding-left:0px;
+    font-size:16px;
+    overflow: hidden;
+    margin-top:6px;
+}
+.content .news-and-notice .notice ol li .number{
+    float:left;
+    width:53px;
+    height:57px;
+    font-size:28px;
+    background-color:#00978E;
+    text-align: center;
+    line-height: 57px;
+    margin-right: 9px;
+    color: white;
+}
+.content .news-and-notice .notice ol li.number a{
+   color:black;
+}
+
 
